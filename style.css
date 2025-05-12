@@ -33,6 +33,9 @@ h6 {
   font-weight: 700;
   font-size: 12px;
 }
+h3 {
+  padding-bottom: 15px;
+}
 
 p {
   font-size: 16px;
@@ -1160,6 +1163,7 @@ footer .copyright{
   #form-details form input,
   #form-details form textarea,
   #login-box input,
+  #signup-box input,
   .posting-form input, 
   .posting-form textarea {
     width:100%;
@@ -1169,7 +1173,8 @@ footer .copyright{
     border: 1px solid #e1e1e1;
   }
   #form-details form button,
-  #login-box button {
+  #login-box button,
+  #signup-btn {
     background-color: #307a5a;
     color: #fff;
   }
@@ -1211,7 +1216,8 @@ footer .copyright{
   .custom-alert.error {
     background-color: #000;
   }
-  #login-box{
+  #login-box,
+  #signup-box{
     width: 80%;
     margin: auto;
     margin-top: 50px;
