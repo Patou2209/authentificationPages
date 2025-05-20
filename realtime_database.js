@@ -53,7 +53,6 @@ function clearInputField() {
 //complexe exemple
 onValue(itemInDataBase, function(snapshot) {
   let itemsArray = Object.values(snapshot.val()) // this will convert the object to an array
-  console.log(itemsArray)
   let container = document.getElementById('container')
   container.innerHTML = ""
   for (let i = 0; i < itemsArray.length; i++) {
